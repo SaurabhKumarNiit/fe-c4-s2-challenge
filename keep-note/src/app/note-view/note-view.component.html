@@ -1,0 +1,7 @@
+
+<div id="note" class="card shadow-sm p-3 mb-5 bg-white rounded">
+<app-add-note ></app-add-note>
+</div>
+
+<app-search (searchTextChanged)="search($event)"></app-search>
+<app-note  *ngFor="let contact of notes" [contact] = "contact" ></app-note>

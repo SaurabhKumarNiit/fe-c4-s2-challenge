@@ -1,0 +1,21 @@
+
+<!-- <div  class="search-box">
+    <input type="text" id="box" placeholder="Search" name="titleName" 
+    [(ngModel)]="titleName">
+    <button (click)="searchNotes()">Go</button>
+    <button (click)="clearNotes()">Clear</button>
+</div>
+<p></p> -->
+
+
+<form class="example-form">
+    <mat-form-field class="example-full-width" appearance="fill">
+    <span matPrefix> </span>
+    <input type="tel" matInput placeholder="Search" name= "search" [(ngModel)]= "titleName">
+    <button matSuffix mat-button (click)="searchNotes()" ><mat-icon >search</mat-icon></button>
+    </mat-form-field>
+    <br/>
+    </form>
+
+
+

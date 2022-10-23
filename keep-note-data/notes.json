@@ -4,7 +4,7 @@
       "id": 1,
       "title": "sample-note",
       "content": "This is a sample note added for testing purpose",
-      "reminderDate": "2022-09-09T18:30:00.000Z",
+      "reminderDate": "2022-09-09 08:00 A.M",
       "category": "Office",
       "priority": "High"
     },
@@ -55,6 +55,22 @@
       "category": "Office",
       "priority": "Medium",
       "id": 7
+    },
+    {
+      "title": "pea",
+      "content": "no",
+      "reminderDate": "2022-10-04",
+      "category": "new cate",
+      "priority": "High",
+      "id": 8
+    },
+    {
+      "title": "hello",
+      "content": "Hello User",
+      "reminderDate": "2022-10-24",
+      "category": "new day",
+      "priority": "Medium",
+      "id": 9
     }
   ]
 }
